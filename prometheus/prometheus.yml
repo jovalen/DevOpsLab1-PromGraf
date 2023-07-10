@@ -48,8 +48,8 @@ scrape_configs:
 # Rules and alerts are read from all matching files.
 # During the lab will be uncommented to show the feature
 rule_files:
-#  - /etc/prometheus/rules/recording_rules/cpu.yml
-#  - /etc/prometheus/rules/alert_rules/alert_instance_down_example.yml
+  - /etc/prometheus/rules/recording_rules/cpu.yml
+  - /etc/prometheus/rules/alert_rules/alert_instance_down_example.yml
 
 # Specifies settings related to the Alertmanager.
 alerting:
